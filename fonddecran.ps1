@@ -1,10 +1,10 @@
 # URL de l'image (lien RAW GitHub)
 $imageUrl = "https://raw.githubusercontent.com/L4Curtis/rubberduckyTP/main/gey.jpg"
 
-# Chemin local où l'image sera enregistrée
-$wallpaperPath = "$env:USERPROFILE\Pictures\wallpaper_digispark.jpg"
+# Chemin local où l'image sera enregistrée (TEMP)
+$wallpaperPath = "$env:TEMP\wallpaper_digispark.jpg"
 
-# Téléchargement de l'image
+# Téléchargement de l'image dans %TEMP%
 Invoke-WebRequest -Uri $imageUrl -OutFile $wallpaperPath
 
 # Petit délai de sécurité
