@@ -1,5 +1,5 @@
 # URL de l'image (lien RAW GitHub)
-$imageUrl = "https://raw.githubusercontent.com/L4Curtis/rubberduckyTP/main/5448.jpg"
+$imageUrl = "https://raw.githubusercontent.com/L4Curtis/rubberduckyTP/main/gey.jpg"
 
 # Chemin local où l'image sera enregistrée (TEMP)
 $wallpaperPath = "$env:TEMP\wallpaper_digispark.jpg"
